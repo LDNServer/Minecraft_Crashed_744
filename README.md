@@ -57,7 +57,7 @@ Minecraft 1.1（Pending）
 2. Crashed_744サーバーzipをダウンロード：  
 [Crashed_744_server.zip](https://github.com/Minecraft_Crashed_744/Minecraft_666_Edition/releases)  
 
-3. `1.1.jar` の中身を7-zipなどで展開し、`Crashed_744_server.zip` の中身を上書き。  
+3. 展開した `1.1.jar` フォルダ内に、`Crashed_744_server.zip` の中身をコピーして **すべて上書き** します。 
 
 4. 再びjarに戻して起動。Minecraft Crashed 744になっていれば完成です。  
 
