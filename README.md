@@ -1,5 +1,6 @@
 ## English
 https://github.com/LDNServer/Minecraft_Crashed_744/blob/main/README_EN.md
+
 # Crashed_744
 LDTで作られた、呪いのMinecraftバージョン  
 Minecraft 1.1（Pending）  
@@ -98,4 +99,4 @@ Minecraft 1.1（Pending）
 - キックされたり、クラッシュすることがあります（水以外）。これは仕様です。  
 - 特定のシードでは、マルチプレイ時にクラッシュすることがあります。
 
-7474
+Seed: 7474
