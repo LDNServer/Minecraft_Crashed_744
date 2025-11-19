@@ -33,7 +33,7 @@ Also known as: Minecraft Crashed 744
 [Download Zulu Java 8](https://www.azul.com/downloads/?version=java-8-lts&os=windows&architecture=x86-64-bit&package=jdk#zulu)  
 
 1. Download the client zip file:  
-[Crashed_744.zip](https://github.com/YonCursedMC/Minecraft_Crashed_744/releases) (the top file)  
+[Crashed_744.zip](https://github.com/LDNServer/Minecraft_Crashed_744/releases) (the top file)  
 
 2. Install **MultiMC** or **PrismLauncher**:  
 - [MultiMC](https://multimc.org/#Download)  
@@ -52,7 +52,7 @@ Also known as: Minecraft Crashed 744
 [1.1.jar](https://files.betacraft.uk/server-archive/release/1.1/1.1.jar)  
 
 2. Download the Crashed_744 server zip:  
-[Crashed_744_server.zip](https://github.com/Minecraft_Crashed_744/Minecraft_666_Edition/releases)  
+[Crashed_744_server.zip](https://github.com/LDNServer/Minecraft_Crashed_744/releases)  
 
 3. Extract `1.1.jar` into a folder, then **copy all contents of `Crashed_744_server.zip` into this folder, overwriting files**.  
 
