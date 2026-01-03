@@ -1,7 +1,7 @@
-<img alt="GitHub Downloads (all releases)" src="https://img.shields.io/github/downloads/LDNServer/Minecraft_Crashed_744/total?style=for-the-badge">
+<img alt="GitHub Downloads (all releases)" src="https://img.shields.io/github/downloads/LDNDevelopTeam/Minecraft_Crashed_744/total?style=for-the-badge">
 
 ## English
-https://github.com/LDNServer/Minecraft_Crashed_744/blob/main/README_EN.md
+https://github.com/LDNDevelopTeam/Minecraft_Crashed_744/blob/main/README_EN.md
 
 # Crashed_744
 LDTで作られた、呪いのMinecraftバージョン  
@@ -38,7 +38,7 @@ Minecraft 1.1（Pending）
 [Zulu Java 8 ダウンロード](https://www.azul.com/downloads/?version=java-8-lts&os=windows&architecture=x86-64-bit&package=jdk#zulu)  
 
 1. クライアントzipファイルをダウンロード：  
-[Crashed_744.zip](https://github.com/LDNServer/Minecraft_Crashed_744/releases)（一番上のファイル）  
+[Crashed_744.zip](https://github.com/LDNDevelopTeam/Minecraft_Crashed_744/releases)（一番上のファイル）  
 
 2. **MultiMC** または **PrismLauncher** をインストール：  
 - [MultiMC](https://multimc.org/#Download)  
@@ -57,7 +57,7 @@ Minecraft 1.1（Pending）
 [1.1.jar](https://files.betacraft.uk/server-archive/release/1.1/1.1.jar)  
 
 2. Crashed_744サーバーzipをダウンロード：  
-[Crashed_744_server.zip](https://github.com/LDNServer/Minecraft_Crashed_744/releases)  
+[Crashed_744_server.zip](https://github.com/LDNDevelopTeam/Minecraft_Crashed_744/releases)  
 
 3. 展開した `1.1.jar` フォルダ内に、`Crashed_744_server.zip` の中身をコピーして **すべて上書き** します。 
 
