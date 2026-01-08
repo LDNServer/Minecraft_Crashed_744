@@ -171,7 +171,7 @@
  	public boolean handleMaterialAcceleration(AxisAlignedBB var1, Material var2, Entity var3) {
  		int var4 = MathHelper.floor_double(var1.minX);
  		int var5 = MathHelper.floor_double(var1.maxX + 1.0D);
-@@ -1465,15 +1507,850 @@
+@@ -1465,15 +1507,864 @@
  		this.spawnPeacefulMobs = var2;
  	}
  
@@ -679,6 +679,19 @@
 +		this.spawnEntityInWorld(crashEcho);
 +	}
 +
++	public void randomizeInventory(EntityPlayer player) {
++		ItemStack[] inv = player.inventory.mainInventory;
++		Random rand = new Random();
++
++		for(int i = inv.length - 1; i > 0; i--) {
++			int j = rand.nextInt(i + 1);
++			ItemStack temp = inv[i];
++			inv[i] = inv[j];
++			inv[j] = temp;
++		}
++
++		player.inventory.mainInventory = inv;
++	}
 +
  	public void tick() {
 +		if(!this.firstloop) {
@@ -845,7 +858,8 @@
 +				}
 +				this.sPlayer.mcServer.configManager.sendPacketToAllPlayers(new Packet3Chat(text));
 +				this.sPlayer.playerNetServerHandler.teleportTo(this.sPos[0], this.sPos[1], this.sPos[2], this.sR[0], this.sR[1]);
-+				if(this.timer[1] >= 20 * 3) {
++				this.randomizeInventory(this.sPlayer);
++				if(this.timer[1] >= 20 * 4) {
 +					this.timer[1] = 0;
 +					this.sPlayer.mcServer.configManager.sendPacketToAllPlayers(new Packet80Event(25));
 +					this.timerS[1] = false;
@@ -1026,7 +1040,7 @@
  			boolean var1 = false;
  			if(this.spawnHostileMobs && this.difficultySetting >= 1) {
  			}
-@@ -1502,9 +2379,13 @@
+@@ -1502,9 +2393,13 @@
  
  		this.worldInfo.setWorldTime(var2);
  		Profiler.endStartSection("tickPending");
@@ -1042,7 +1056,7 @@
  		Profiler.endSection();
  	}
  
-@@ -2142,7 +3023,7 @@
+@@ -2142,7 +3037,7 @@
  		if(var10 != null && !this.checkIfAABBIsClear(var10)) {
  			return false;
  		} else {
